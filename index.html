@@ -11,30 +11,25 @@
 
     <!-- style  -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleDesktop.css">
 </head>
 
 
-<body>
+<body class="body">
     <header>
-        <h1>Juego del Ahorcado - Alura </h1>
+        <h1 class="header-titulo">Juego del Ahorcado <br> Alura </h1>
 
     </header>
 
-    <body class="body">
-        <p>Introduzca una letra, por favor</p>
-
-        
-        
-        
-        <div>
-            <canvas data-tipo="canvas"></canvas>
-            <div data-tipo="canvas-letra"> </div>
+        <div class="juego">
+            <canvas class="canvas" data-tipo="canvas"></canvas>
+            <div class="canvas-letra" data-tipo="canvas-letra"> </div>
+            <div class="canvas-palabra" data-tipo="canvas-palabra"></div>
         </div>
-        <div data-tipo="canvas-palabra"></div>
         
-        <button id="hola" data-tipo="verificar">Play</button>
-    </body>
 
+        <button class="button" data-tipo="verificar">Play</button>
+           
     <footer></footer>
 
     <script src="/javaScript.js"></script>

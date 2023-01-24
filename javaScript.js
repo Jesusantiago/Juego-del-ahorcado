@@ -112,6 +112,7 @@ const pizarra = () => {
     ctx.fillRect(1, 0, 1, 8);
     ctx.fillRect(2, 0, 3, 1);
     ctx.fillRect(4, 1, 1, 1);
+
 }
 
 
@@ -129,7 +130,6 @@ const juego = () => {
     palabraPintada();
     document.addEventListener("keydown", letraEvento);
 
-    console.log(partesCuerpo)
 };
 
 
